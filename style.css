@@ -1,0 +1,49 @@
+body {
+    font-size: 15pt;
+    background: #5174DB9C;
+}
+
+section{
+  
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center ;
+  
+}
+
+.apimg{
+  
+  width: 100%;
+  
+}
+
+img{
+  width: 100%;
+  height: 500px;
+  border-radius:30px;
+  
+}
+
+.apbut{
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap:20px;
+  margin: 10px;
+}
+
+.apbut button{
+  width: 20px;
+  background: #222;
+  height: 20px;
+  border-radius:50%;
+  border: none;
+  opacity:0.5;
+}
+
+button:hover{
+  opacity: 1;
+  transition: 1s;
+}
